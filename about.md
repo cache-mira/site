@@ -7,14 +7,11 @@ Miranda is a security researcher and consultant. She is part of Synack's Red Tea
 
 Miranda's educational background is in networking and security, holding a bachelor's degree in cybersecurity and information assurance. Her certifications include the SSCP from (ISC)² and CompTIA's Secure Infrastructure Specialist and Security Analytics Professional tracks. When not actively testing targets, Miranda enjoys participating in CTF events, contributing to open-source projects, and working with other researchers to dissect popular technologies believed to be inherently secure.
 
-* * *
-
 ### Certifications 
-
-**(ISC)²**
+> **(ISC)²**
 - SSCP
 
-**CompTIA**
+> **CompTIA**
 - Security Analytics Professional (CSAP)
 - Secure Infrastructure Specialist (CSIS)
 - IT Operations Specialist (CIOS)
@@ -24,12 +21,10 @@ Miranda's educational background is in networking and security, holding a bachel
 - Network+
 - Security+
 
-**ITIL4**
+> **ITIL4**
 - Foundation
 
-**FCC**
+> **FCC**
 - Liscensed Amature Radio Technician. 
-
-* * *
 
 ![Mira](/assets/images/mira.jpg)
