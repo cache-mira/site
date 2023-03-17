@@ -5,14 +5,14 @@ author: "Miranda Ross"
 categories: Research
 ---
 
-These report templates were written to be unique and valuable to the client receiving a vulnerability report. They have variables that will automatically be replaced by the platform created during workflow automation. The following is the Reflected Cross-Site Scripting report template.
+These report templates were written to be unique and valuable to the client receiving a vulnerability report. 
+They have variables that will automatically be replaced by the platform created during workflow automation. 
+The following is the Reflected Cross-Site Scripting report template.
 
-_See the full template in raw markdown on [GitHub](/report_templates/reflected-cross-site-scripting.md)._
+> _See the full template in raw markdown on [GitHub](/report_templates/reflected-cross-site-scripting.md)._
 
 * * *
 
-Reflected Cross Site Scripting 
-===============================================================
 
 Metadata
 ----------------------------------------------------------------
