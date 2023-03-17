@@ -67,8 +67,11 @@ __Keep your software and libraries up to date.__
 
 Severity Scores
 ----------------------------------------------------------------
-__\[CWE-79\]:__ Improper Neutralization of Input During Web Page Generation\\
-CVSS v3.1 Base Score: __\[6.1\]__-
+__\[CWE-79\]:__ Improper Neutralization of Input During Web Page Generation.\\
+CVSS v3.1 Base Score: __\[6.1\]__
+
+### Details
+
 | Metric              | Value    | Comments                                                     |
 |:--------------------|:---------|:-------------------------------------------------------------|
 |---
