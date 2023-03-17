@@ -24,42 +24,7 @@ The Application UI was verified to be working and ready for use with clients. Th
 
 The UI had some security settings that needed to be adjusted as well. Default passwords were updated. Cross-Origin Resource Sharing was configured to only include the local domains. The ports were remapped in Docker to only serve the platform on the loopback address so other hosts in the local network could not access it.
 
-# Deliverable 3: Project Templates
+## Deliverable 3: Project Templates
 Report templates were written from previous reports and resources from OWASP, including their testing and prevention guides (see Appendix C). The reports contain variables that are replaced automatically when they are generated. For example, the Reflected Cross-Site Scripting Report (Ross, 2022) can be used when an RXSS is found by recording it as a found vulnerability on Reconmap and clicking the “Report” button. The RXSS template is included below in markup format (see Appendix C).
 
 These report templates have increased reporting efficiency by streamlining the process for common vulnerabilities. Remediation steps were emphasized since it was noted to be one of the most inconsistent areas in previous reports. These templates can be reused and improved over time to generate consistent high-quality reports. 
-
-# Appendix A
-_Screenshots of Docker Containers_
-The two different operating systems run six containers: 
-⦁	Agent for running commands
-⦁	Web-client you access in the browser
-⦁	Redis server for message brokering
-⦁	MySQL database to hold the data
-⦁	Keycloak authentication system
-⦁	API server to interact with the platform.
- 
-_Figure A1._ The Docker containers running Reconmap on Windows 11. Shown here in the Docker Desktop application. 
-![Windows Docker Containers](/assets/images/automation/docker%20running.png)
- 
-_Figure A2._ Docker containers running Reconmap on an Ubuntu Server. These services are shown here launching from the terminal with docker-compose.
-Network and Application Diagrams
-![Ubuntu Docker Containers](/assets/images/automation/ubuntu.png)
-
-_Figure A3._ This diagram shows the network of the systems running Reconmap for this project. It was generated with a network mapper tool from Visual Paradigm (VisualParadigm, 2022). The green check marks show the systems needed to be compatible with Reconmap.
-![Diagram](/assets/images/automation/network.png)
-
-
-# Appendix B
-_Screenshots of Reconmap_
-The following are screenshots of the finished Reconmap platform after it was installed. These screenshots show the user interface of the application and its customizable features.  
-
-
-_Figure B1._ A screenshot of the dashboard after successful installation of the Reconmap platform.
-![Dashboard](/assets/images/automation/dashboard.png)
-
-_Figure B2._ A screenshot of Reconmap’s templates page.
-![Template](/assets/images/automation/project-templates.png)
-
-_Figure B3._ The system architecture for the Reconmap Platform (Santiago, 2022)._
-![Architecture](/assets/images/automation/structure.png)

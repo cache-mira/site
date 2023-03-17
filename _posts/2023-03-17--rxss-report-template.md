@@ -4,11 +4,11 @@ layout: post
 author: "Miranda Ross"
 categories: Research
 ---
-# Appendix C
-Report Template Examples
+# Appendix C - Report Template Examples
 The report templates were written to be unique and valuable to the client receiving a vulnerability report. They have variables that will automatically be replaced by the platform. The following is the Reflected Cross-Site Scripting report template.
 
-
+```
+# Reflected Cross Site Scripting 
 ## Metadata
 ----------------------------------------------------------------
 - **Target codename:** {{{target-codename}}}
@@ -19,6 +19,7 @@ The report templates were written to be unique and valuable to the client receiv
 - **HTTP Request: ** `` {{{RXSS-HTTP Request}}}```
 - **CWE:** CWE-79: Improper Neutralization of Input During Web Page Generation
 - **CVSS:** 6.1
+
 ## Introduction/Description
 ----------------------------------------------------------------
 A reflected cross-site scripting vulnerability was found on the {{{rxss-hostname}}} domain at the {{rxss-path}} endpoint in the {{rxss-param}} parameter.
@@ -70,5 +71,6 @@ Make sure to keep all software and libraries used on your website up to date to 
 | Integrity           | Low      | Information in the victim's browser associated with {{{rxss-hostname}}} can be modified by the malicious JavaScript code. |
 | Availability        | None     | The malicious JavaScript code cannot significantly impact the victim's browser. |
 
+```
 
 __Figure C1. Reflected Cross-Site Scripting Report Template (Ross, 2022).__
