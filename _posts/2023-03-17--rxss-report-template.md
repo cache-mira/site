@@ -7,22 +7,22 @@ categories: Research
 # Appendix C - Report Template Examples
 The report templates were written to be unique and valuable to the client receiving a vulnerability report. They have variables that will automatically be replaced by the platform. The following is the Reflected Cross-Site Scripting report template.
 
-```
+
 # Reflected Cross Site Scripting 
 ## Metadata
 ----------------------------------------------------------------
-- **Target codename:** {{{target-codename}}}
+- **Target codename:** `{{{target-codename}}}`
 - **Category:** Reflected Cross-Site Scripting
-- **Vulnerable Location**: {{{rxss-hostname}}}{{{rxss-path}}}
-- **Vulnerable Parameter:** {{{rxss-param}}}
+- **Vulnerable Location**: `{{{rxss-hostname}}}{{{rxss-path}}}`
+- **Vulnerable Parameter:** `{{{rxss-param}}}`
 - **Payload:** `{{{rxss-payload}}}`
-- **HTTP Request: ** `` {{{RXSS-HTTP Request}}}```
+- **HTTP Request: ** `{{{RXSS-HTTP Request}}}`
 - **CWE:** CWE-79: Improper Neutralization of Input During Web Page Generation
 - **CVSS:** 6.1
 
 ## Introduction/Description
 ----------------------------------------------------------------
-A reflected cross-site scripting vulnerability was found on the {{{rxss-hostname}}} domain at the {{rxss-path}} endpoint in the {{rxss-param}} parameter.
+A reflected cross-site scripting vulnerability was found on the `{{{rxss-hostname}}}` domain at the `{{{rxss-path}}}` endpoint in the {{rxss-param}} parameter.
 
 Reflected Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser-side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.
 
@@ -30,17 +30,18 @@ Reflected Cross-Site Scripting (XSS) attacks are a type of injection, in which m
 ----------------------------------------------------------------
 Visit the below URL to see the domain {{{rxss-hostname}}} in a pop-up alert box. The domain name verifies the DOM is reachable through this cross-site scripting attack, allowing the attacker to access cookies.
 
-**Link to full URL with Payload:** [{{{poc-payload}}}]({{{poc-payload}}})
+**Link to full URL with Payload:** [`{{{poc-payload}}}`](`{{{poc-payload}}}`)
 **URL with payload in plain text:**
-```{{{poc-payload}}}```
+> `{{{poc-payload}}}`
 
 ## Impact
 ----------------------------------------------------------------
-An attacker can use a reflected cross-site scripting attack to steal {{{rxss-hostname}}} cookies from an authenticated user by having them click on a malicious link. Stolen cookies allow the attacker to take over the user's session. This vulnerability may also allow attackers to deface {{{rxss-hostname}}} or embed malicious content.
+An attacker can use a reflected cross-site scripting attack to steal `{{{rxss-hostname}}}` cookies from an authenticated user by having them click on a malicious link. Stolen cookies allow the attacker to take over the user's session. This vulnerability may also allow attackers to deface `{{{rxss-hostname}}}` or embed malicious content.
 
 ## Remediation
 ----------------------------------------------------------------
 Help prevent XSS attacks by using the following best practices.
+
 ### Validate and sanitize user input
 Make sure to validate and sanitize all user input to ensure that it does not contain any malicious code. This can be done using server-side input validation and sanitization functions.
 
