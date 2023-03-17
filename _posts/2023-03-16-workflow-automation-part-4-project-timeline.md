@@ -4,15 +4,9 @@ layout: post
 author: "Miranda Ross"
 categories: Research
 ---
-
 ## Table 2
 _Project Timeline with planned vs. actual durations and start dates._
-Milestone or deliverable	Planned Duration	Actual Duration	Actual Start Date	Actual End Date
-Build & Configure Reconmap Containers	1-2 days	4 hours	12/15/2022	12/15/2022
-Create Project Templates from Framework	4 hours	1.5 Days	12/15/2022	12/16/2022
-Connect Script Results to Database	4 hours	4 hours	12/17/2022	12/17/2022
-Create Pentest Report Templates	6 hours	1.5 days	12/17/2022	12/18/2022
-Convert Reconmap Output to Markdown	2 hours	2 hours	12/19/2022	12/19/2022
+![timeline](/assets/images/)
 
 ## Timeline Variances
 The actual timeline did vary from the anticipated one (see Table 2). Building and configuring the containers was much shorter than anticipated. The Docker containers were faster than traditional servers to set up. Creating both the pentest report and the project templates was faster than expected. Connecting the scripts and converting output took about the same amount of time. Overall, the project was within the overall projected timeline, but the individual tasks varied.
