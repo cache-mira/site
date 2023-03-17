@@ -30,8 +30,8 @@ Report templates were written from previous reports and resources from OWASP, in
 These report templates have increased reporting efficiency by streamlining the process for common vulnerabilities. Remediation steps were emphasized since it was noted to be one of the most inconsistent areas in previous reports. These templates can be reused and improved over time to generate consistent high-quality reports. 
 
 # Appendix A
-Screenshots of Docker Containers
-	The two different operating systems run six containers: 
+_Screenshots of Docker Containers_
+The two different operating systems run six containers: 
 ⦁	Agent for running commands
 ⦁	Web-client you access in the browser
 ⦁	Redis server for message brokering
@@ -40,19 +40,26 @@ Screenshots of Docker Containers
 ⦁	API server to interact with the platform.
  
 _Figure A1._ The Docker containers running Reconmap on Windows 11. Shown here in the Docker Desktop application. 
-
+![Windows Docker Containers](/assets/images/automation/docker%20running.png)
  
 _Figure A2._ Docker containers running Reconmap on an Ubuntu Server. These services are shown here launching from the terminal with docker-compose.
 Network and Application Diagrams
- 
+![Ubuntu Docker Containers](/assets/images/automation/ubuntu.png)
+
 _Figure A3._ This diagram shows the network of the systems running Reconmap for this project. It was generated with a network mapper tool from Visual Paradigm (VisualParadigm, 2022). The green check marks show the systems needed to be compatible with Reconmap.
+![Diagram](/assets/images/automation/network.png)
+
 
 # Appendix B
 _Screenshots of Reconmap_
 The following are screenshots of the finished Reconmap platform after it was installed. These screenshots show the user interface of the application and its customizable features.  
 
-_Figure B1. A screenshot of the dashboard after successful installation of the Reconmap platform._
- 
-_Figure B2. A screenshot of Reconmap’s templates page._
- 
-_Figure B3. The system architecture for the Reconmap Platform (Santiago, 2022)._ 
+
+_Figure B1._ A screenshot of the dashboard after successful installation of the Reconmap platform.
+![Dashboard](/assets/images/automation/dashboard.png)
+
+_Figure B2._ A screenshot of Reconmap’s templates page.
+![Template](/assets/images/automation/project-templates.png)
+
+_Figure B3._ The system architecture for the Reconmap Platform (Santiago, 2022)._
+![Architecture](/assets/images/automation/structure.png)

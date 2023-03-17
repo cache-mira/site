@@ -1,5 +1,5 @@
 ---
-title: "Workflow Automation, Part 5 - Reflected Cross Site Scripting - Report Template"
+title: "Report Template - Reflected Cross Site Scripting"
 layout: post
 author: "Miranda Ross"
 categories: Research
