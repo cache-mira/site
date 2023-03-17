@@ -1,15 +1,15 @@
 ---
-title: "Report Template - Reflected Cross Site Scripting"
+title: "Report Template - RXSS"
 layout: post
 author: "Miranda Ross"
 categories: Research
 ---
 
-Report Template Examples
+
 ========================
 The report templates were written to be unique and valuable to the client receiving a vulnerability report. They have variables that will automatically be replaced by the platform. The following is the Reflected Cross-Site Scripting report template.
 
-**See the full template in raw markdown on [GitHub](/report_templates/reflected-cross-site-scripting.md).
+_See the full template in raw markdown on [GitHub](/report_templates/reflected-cross-site-scripting.md).
 
 Reflected Cross Site Scripting 
 ---------------------------------------------
@@ -48,16 +48,16 @@ An attacker can use a reflected cross-site scripting attack to steal \[rxss-host
 Help prevent XSS attacks by using the following best practices.
 
 __Validate and sanitize user input__
-Make sure to validate and sanitize all user input to ensure that it does not contain any malicious code. This can be done using server-side input validation and sanitization functions.
+>Make sure to validate and sanitize all user input to ensure that it does not contain any malicious code. This can be done using server-side input validation and sanitization functions.
 
 __Use content security policies (CSPs).__
-CSPs allow you to specify which domains are allowed to load resources on your website. This can help to prevent attackers from injecting malicious code from third-party domains.
+>CSPs allow you to specify which domains are allowed to load resources on your website. This can help to prevent attackers from injecting malicious code from third-party domains.
 
 __Use an XSS prevention library.__
-There are several libraries available that can help to prevent XSS attacks by automatically escaping user input and implementing other security measures.
+>There are several libraries available that can help to prevent XSS attacks by automatically escaping user input and implementing other security measures.
 
 __Keep your software and libraries up to date.__
-Make sure to keep all software and libraries used on your website up to date to ensure that you have the latest security fixes and patches.
+>Make sure to keep all software and libraries used on your website up to date to ensure that you have the latest security fixes and patches.
 
 **Find out more from [OWASP's Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)**
 

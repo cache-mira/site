@@ -2,10 +2,9 @@
 layout: post
 title: Contact
 ---
-## Discord: [cache#5966](https://discordapp.com/users/949180571215626282)
 
-## Email: [mira@the-red.team](mailto:mira@the-red.team)
+Message me on [LinkedIn](https://www.linkedin.com/in/miraross/ "MiraRoss") or send an [e-mail](mailto:mira@the-red.team "mira@the-red.team").
 
-## LinkedIn: [MiraRoss](https://www.linkedin.com/in/miraross/)
+Join my team on [Discord](https://discordapp.com/users/949180571215626282 "cache#5966").
 
-## Github [cache-mira](https://github.com/cache-mira)
+Work with me on [Github](https://github.com/cache-mira "cache-mira").
