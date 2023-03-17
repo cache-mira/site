@@ -1,5 +1,5 @@
 ---
-title: "Workflow Automation, Part 5 - Conclusions and Deliverables"
+title: "Workflow Automation [5/6]: Conclusions & Deliverables"
 layout: post
 author: "Miranda Ross"
 categories: Research
@@ -13,18 +13,26 @@ While the reconnaissance was documented before the project, the active testing p
 
 The project was also considered successful because the time spent writing a report is less than the current methods on the same type of assessment. The time to write the initial report template took longer initially, but the template was able to be reused in future reports. The initial investment in implementing Reconmap and creating the templates reduced the time spent on redundant tasks in future reports.
 
-# Project Deliverables
+Project Deliverables
+=============================================================
+
 Reconmap was successfully installed on the Windows host machine and an Ubuntu virtual machine. The containers were configured with security controls and the application was verified to be ready for clients. Templates were written for commonly reported vulnerabilities.
 
-## Deliverable 1: Docker containers running Reconmap.
+Deliverable 1: Docker containers running Reconmap.
+------------------------------------------------------------- 
+
 The platform was built with Docker running six individual containers on a Windows and a Linux host (see Appendix A). The first container is the agent. This container is used for running commands, although you can also run commands from any terminal that you authenticate to the platform within the same network. The web-client container holds the web application you use to interact with the platform, which is accessible in the browser over port 5500. The Redis server acts as a caching and message brokering service. The MySQL server is the database that holds all the documentation and results put into Reconmap. A Keycloak server authenticates the end-user to the platform. An API server is used for communication between the backend and the front end. See figure A3 in see Appendix A for a network diagram of the network and systems Reconmap was installed on. 
 
-## Deliverable 2: Interactive application.
+Deliverable 2: Interactive application.
+-------------------------------------------------------------
+
 The Application UI was verified to be working and ready for use with clients. The Dashboard was customized to show currently assigned tasks to the user (see Appendix B). All template editing systems were verified to be functional as well. The platform was configured with commands used, and the results collector was fed into the client database.
 
 The UI had some security settings that needed to be adjusted as well. Default passwords were updated. Cross-Origin Resource Sharing was configured to only include the local domains. The ports were remapped in Docker to only serve the platform on the loopback address so other hosts in the local network could not access it.
 
-## Deliverable 3: Project Templates
+Deliverable 3: Project Templates
+-------------------------------------------------------------
+
 Report templates were written from previous reports and resources from OWASP, including their testing and prevention guides (see Appendix C). The reports contain variables that are replaced automatically when they are generated. For example, the Reflected Cross-Site Scripting Report (Ross, 2022) can be used when an RXSS is found by recording it as a found vulnerability on Reconmap and clicking the “Report” button. The RXSS template is included below in markup format (see Appendix C).
 
 These report templates have increased reporting efficiency by streamlining the process for common vulnerabilities. Remediation steps were emphasized since it was noted to be one of the most inconsistent areas in previous reports. These templates can be reused and improved over time to generate consistent high-quality reports. 
