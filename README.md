@@ -3,52 +3,13 @@ layout: page
 title: "Hitchens"
 ---
 
-An inarguably well-designed [Jekyll](http://jekyllrb.com) theme by [Pat Dryburgh](https://patdryburgh.com).
+This site was created from an inarguably well-designed [Jekyll](http://jekyllrb.com) theme by [Pat Dryburgh](https://patdryburgh.com). Please visit their page if you like the template they created.
 
-![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png)
-
-Undoubtably one of the great minds of our time, [Christopher Hitchens](https://en.wikipedia.org/wiki/Christopher_Hitchens) challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme's design is inspired by the trade paperback version his book, [Arguably](https://en.wikipedia.org/wiki/Arguably), and is dedicated to his memory.
 
 ## Quick Start
 
-This theme is, itself, a Jekyll blog, meaning the code base you see has everything you need to run a Jekyll powered blog!
-
-To get started quickly, follow the instructions below:
-
-1. Click the `Fork` button at the top of [the repository](https://github.com/patdryburgh/hitchens/);
-2. Go to your forked repo's `Settings` screen;
-3. Scroll down to the `GitHub Pages` section;
-4. Under `Source`, select the `Master` branch;
-5. Hit `Save`.
-6. Follow [Jekyll's instructions to configure your new Jekyll site](https://jekyllrb.com/docs/configuration/).
 
 ## Manual Installation
-
-If you've already created your Jekyll site or are comfortable with the command line, you can follow [Jekyll's Quickstart instructions](https://jekyllrb.com/docs/) add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "hitchens-theme"
-```
-
-And add the following lines to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: hitchens-theme
-```
-
-Depending on your [site's configuration](https://jekyllrb.com/docs/configuration/options/), you may also need to add:
-
-```yaml
-ignore_theme_config: true
-```
-
-And then on the command line, execute:
-
-    $ bundle
-
-Or install the theme yourself as:
-
-    $ gem install hitchens-theme
 
 ## Usage
 
