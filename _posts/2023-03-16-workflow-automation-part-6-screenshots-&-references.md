@@ -1,5 +1,5 @@
 ---
-title: "Workflow Automation, Part 6 - Screenshots & References"
+title: "Workflow Automation [6/6]:  Screenshots & References"
 layout: post
 author: "Miranda Ross"
 categories: Research
@@ -8,12 +8,11 @@ categories: Research
 # Appendix A
 ## Screenshots of Docker Containers
 The two different operating systems run six containers: 
-⦁	Agent for running commands
-⦁	Web-client you access in the browser
-⦁	Redis server for message brokering
-⦁	MySQL database to hold the data
-⦁	Keycloak authentication system
-⦁	API server to interact with the platform.
+-	Web-client you access in the browser
+-	Redis server for message brokering
+-	MySQL database to hold the data
+-	Keycloak authentication system
+-	API server to interact with the platform.
  
 _Figure A1._
 The Docker containers running Reconmap on Windows 11. Shown here in the Docker Desktop application.
