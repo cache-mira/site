@@ -5,7 +5,7 @@ author: "Miranda Ross"
 categories: Research
 ---
 
-__Project Timeline with planned vs. actual durations and start dates._
+_Project Timeline with planned vs. actual durations and start dates._
 ![Table 2](/assets/images/automation/timeline.png)
 
 Timeline Variances
