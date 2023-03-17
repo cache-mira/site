@@ -3,15 +3,33 @@ layout: post
 title: About
 ---
 
-Undoubtably one of the great minds of our time, Christopher Hitchens challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme is designed in his memory.
+Miranda is a security researcher and consultant. She is part of Synack's Red Team and contributes to both public and private vulnerability disclosure/bug bounty programs. Her research focuses on identifying exploitable vulnerabilities in enterprise and federal systems. She is experienced in testing infrastructure networks and reverse engineering attacks without publicly available exploits. She has identified numerous vulnerabilities in mission critial systems, ranging from remote code execution and SQL injections, to access control issues.
 
-<figure>
-  <img alt="Christopher Hitchens" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Hitchens_2008-04-24_001.jpg" />
-  <figcaption>
-    Photo by Fri Tanke and licensed under the <a href="https://creativecommons.org/licenses/by/3.0/deed.en">Creative Commons Attribution 3.0 Unported</a> license.
-  </figcaption>
-</figure>
+Miranda's educational background is in networking and security, holding a bachelor's degree in cybersecurity and information assurance. Her certifications include the SSCP from (ISC)² and CompTIA's Secure Infrastructure Specialist and Security Analytics Professional tracks. When not actively testing targets, Miranda enjoys participating in CTF events, contributing to open-source projects, and working with other researchers to dissect popular technologies believed to be inherently secure.
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
+* * *
 
->Christopher Eric Hitchens (13 April 1949 – 15 December 2011) was an Anglo-American author, columnist, essayist, orator, religious and literary critic, social critic, and journalist. Hitchens was the author, co-author, editor or co-editor of over 30 books, including five collections of essays on culture, politics and literature. A staple of public discourse, his confrontational style of debate made him both a lauded intellectual and a controversial public figure. He contributed to New Statesman, The Nation, The Weekly Standard, The Atlantic, London Review of Books, The Times Literary Supplement, Slate, Free Inquiry and Vanity Fair.
+### Certifications 
+
+**(ISC)²**
+- SSCP
+
+**CompTIA**
+- Security Analytics Professional (CSAP)
+- Secure Infrastructure Specialist (CSIS)
+- IT Operations Specialist (CIOS)
+- Project+
+- Cybersecurity Analyst (CySA+)
+- A+
+- Network+
+- Security+
+
+**ITIL4**
+- Foundation
+
+**FCC**
+- Liscensed Amature Radio Technician. 
+
+* * *
+
+![Mira](/assets/images/mira.jpg)
