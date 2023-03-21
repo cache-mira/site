@@ -32,6 +32,7 @@ The operating systems were accessed through the host, which was Windows 11 Home 
 
 Current Programs
 ----------------------------------------------------------------------------------------
+
 ### Custom Python Scripts
 The custom python scripts ingested a scope of CIDR ranges or hostnames and performed basic reconnaissance. It ran through a series of unique tests to identify virtual hosting. These scripts would output to the client’s folder. The main program integrated multiple functions already. Since I wrote them to be modular it was convenient to take the individual modules and install them into the Reconmap platform through the “tools” function.
 ### BurpSuite
@@ -55,6 +56,7 @@ On the platform itself, templates were installed for common testing strategies, 
 
 Methodology
 ========================================================================================
+
 The project’s development used the Plan-Do-Check-Act (PDCA) methodology. PDCA had four steps iterated in a cycle, starting with the “Plan” phase (Lean Enterprise Institute, 2022).
 ### Step 1: Plan
 The first step, “Plan”, was to identify problems, set goals, and plan out the steps for how to meet those goals. The problem was disorganized notetaking during security assessments caused missed vulnerabilities, and report writing to take longer. The goal was to decrease the time taken to write reports in the long term and to increase their quality.
