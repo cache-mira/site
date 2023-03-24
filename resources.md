@@ -8,7 +8,7 @@ The only resource you'll need to start is [Google](https://google.com/), learn t
 All of the following can be found with the above technique, nothing here is unique.
 This is just a collection of some my regularly used resources and is not comprehensive.
 
-Here are some of the places I look regularly for new research.
+Some of the places I look regularly for new research:
 
 + Synack's [Exploits Explained](https://www.synack.com/blog/) - A blog series written by the Red Team on exploits you'll see in the wild.
 + [Intigriti's Bug Bytes](https://blog.intigriti.com/category/bugbytes/) - A weekly newsletter containing new research from a variety of sources. 
