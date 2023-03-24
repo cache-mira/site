@@ -20,18 +20,13 @@ The project was estimated to take a week for one person to implement. The object
 - Install custom tools and workflows
 - Run an example assessment
 
-Changes to the Project Environment
-========================================================================================
-
+##Changes to the Project Environment
 The previous setup for testing and report generation consisted of many moving parts. The programs included BurpSuite, custom python scripts, CLI tools, and Sublime & Typora. The local machine hosted virtual machines and connected to a remote server.
 
-Operating Systems
-----------------------------------------------------------------------------------------
-
+## Operating Systems
 The operating systems were accessed through the host, which was Windows 11 Home on bare metal. This machine contained multiple Ubuntu virtual machines. A remote Windows Server 2019 and Ubuntu 18.04 LTS were on GCP and accessed through VMWare Horizon. The operating systems would not be changing soon, and the project needed to be compatible with all of them.
 
-Current Programs
-----------------------------------------------------------------------------------------
+## Current Programs
 ### Custom Python Scripts
 The custom python scripts ingested a scope of CIDR ranges or hostnames and performed basic reconnaissance. It ran through a series of unique tests to identify virtual hosting. These scripts would output to the client’s folder. The main program integrated multiple functions already. Since I wrote them to be modular it was convenient to take the individual modules and install them into the Reconmap platform through the “tools” function.
 ### BurpSuite
@@ -47,14 +42,11 @@ There were no Docker containers in the workflow. This project used Docker contai
 ## Networking
 The network consisted of the host machine (mid to high-end laptop), several Ubuntu virtual machines, and a remote server. These machines had secure methods of networking between them. The project was going to require networking between the containers and the agent will need to access the internet to perform tests. The host machines will need to be able to connect through a VPN. 
 
-New Environment Overview
----------------------------------------------------------------------------------------
-
+#New Environment Overview
 The new environment consisted of a Docker container network hosting the platform Reconmap. There are six containers total to house the backend, web application, authentication server, and API. A command line tool was installed on all systems used for testing that could interact with the platform and send test results back to it to be processed.
 On the platform itself, templates were installed for common testing strategies, vulnerabilities, and remediation recommendations. A report template was set up to automatically generate a draft of a report containing the results and evidence from testing. My custom commands and documentation were installed onto the system to run remotely.
 
-Methodology
-========================================================================================
+#Methodology
 The project’s development used the Plan-Do-Check-Act (PDCA) methodology. PDCA had four steps iterated in a cycle, starting with the “Plan” phase (Lean Enterprise Institute, 2022).
 ### Step 1: Plan
 The first step, “Plan”, was to identify problems, set goals, and plan out the steps for how to meet those goals. The problem was disorganized notetaking during security assessments caused missed vulnerabilities, and report writing to take longer. The goal was to decrease the time taken to write reports in the long term and to increase their quality.
